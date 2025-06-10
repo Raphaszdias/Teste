@@ -1,1 +1,159 @@
-# Teste
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Surprise</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            min-height: 100vh;
+
+            margin: 0;
+
+            background-color: #000000; /* Fundo preto */
+
+            flex-direction: column; /* Alinha os itens em coluna para o GIF ficar abaixo */
+
+        }
+
+
+
+        .container {
+
+            text-align: center;
+
+            background-color: #82df83; /* Fundo do container verde claro */
+
+            padding: 30px;
+
+            border-radius: 8px;
+
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+            margin-bottom: 20px; /* Adiciona espaço abaixo do container para o GIF */
+
+        }
+
+
+
+        h1, p {
+
+            color: #000000; /* Garante que o texto seja visível no fundo verde */
+
+        }
+
+
+
+        button {
+
+            padding: 12px 25px;
+
+            font-size: 18px;
+
+            background-color: #007bff; /* Azul original do botão */
+
+            color: white;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+            transition: background-color 0.3s ease;
+
+        }
+
+
+
+        button:hover {
+
+            background-color: #32CD32; /* Verde limão ao passar o mouse */
+
+        }
+
+
+
+        .gif-container {
+
+            text-align: center;
+
+            max-width: 90%; /* Ajusta o GIF para não ultrapassar a largura da tela em dispositivos menores */
+
+        }
+
+
+
+        .gif-container img {
+
+            max-width: 100%; /* Garante que o GIF seja responsivo */
+
+            height: 400px; /* Mantém a proporção do GIF */
+
+            border-radius: 8px; /* Opcional: bordas arredondadas para o GIF */
+
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: sombra para o GIF */
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+
+
+ <div class="gif-container">
+
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzMyaTkweDF5eXVyZzdmbWowMnFhNGRwN3RuaGNrMDVwZWJ4anVnZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2UvK9ERfNSbnlWTZAY/giphy.gif" alt="Um GIF animado">
+
+    </div>
+
+<br>
+
+    <div class="container">
+
+        <h1>Ready, Darling?!</h1>
+
+        <p>Click on the button below and the magic happens.</p>
+
+        <button onclick="redirectToLink()">Go</button>
+
+    </div>
+
+
+
+    <script>
+
+        function redirectToLink() {
+
+            // Este é o link que você forneceu para o Canva
+
+            window.location.href = "https://www.canva.com/design/DAGp93xxEmI/FhuflB-dmclvt_Jnd0KMoQ/view?utm_content=DAGp93xxEmI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h76fbb617cb";
+
+        }
+
+    </script>
+
+</body>
+
+</html>
